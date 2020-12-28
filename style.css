@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  background-color: #fff;
+  width: 950px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+}
+#picture {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40%;
+  position: relative;
+}
+#picture img {
+  position: relative;
+  right: 185px;
+}
+#cube {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+  right: 70px;
+  z-index: 2;
+}
+#text {
+  width: 40%;
+  font-family: Kumbh San;
+  display: flex;
+  justify-content: center;
+  font-weight: 700px;
+  flex-direction: column;
+  margin: 0px 50px 0px 10px;
+}
+.query {
+  cursor: pointer;
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.query p {
+  display: inline;
+}
+#querytwo img {
+  transform: rotate(180deg);
+}
+#querytwo p:nth-child(1) {
+  font-weight: bold;
+  display: inline;
+}
+#light {
+  color: hsl(240, 6%, 50%);
+}
+.query img {
+  margin-left: 20px;
+}
+.query p:hover {
+  color: hsl(14, 88%, 65%);
+}
